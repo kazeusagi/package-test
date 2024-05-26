@@ -4,10 +4,6 @@
   "description": "",
   "author": "T.Ito",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kazeusagi/package-test.git"
-  },
   "main": "index.d.ts",
   "types": "index.d.ts",
   "files": [
