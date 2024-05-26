@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: "20"
           registry-url: https://npm.pkg.github.com
+          scope: "@kazeusagi"
       # - name: Install → ビルドを行うためdevDependenciesもインストールする
       #   working-directory: dev
       #   run: npm install
@@ -31,7 +32,6 @@ jobs:
       #   working-directory: dev
       #   run: npm run build
       - name: publish npm package
-        working-directory: package
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
