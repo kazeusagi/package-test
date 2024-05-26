@@ -1,14 +1,10 @@
 {
   "name": "root",
-  "version": "1.0.0",
-  "description": "packageのルート",
-  "main": "index.js",
-  "author": "",
   "license": "MIT",
+  "workspaces": [
+    "package"
+  ],
   "devDependencies": {
     "prettier": "^3.2.5"
-  },
-  "dependencies": {
-    "recoil": "^0.7.7"
   }
 }
