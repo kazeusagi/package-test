@@ -1,18 +1,14 @@
 {
-  "name": "@kazeusagi/package-test",
-  "version": "0.0.3",
-  "description": "",
-  "author": "T.Ito",
+  "name": "@kazeusagi/chat-app-types",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "index.d.ts",
   "types": "index.d.ts",
   "files": [
     "index.d.ts"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:kazeusagi/package-test.git",
-    "directory": "package"
+  "exports": {
+    ".": "./index.d.ts"
   },
   "publishConfig": {
     "access": "public"

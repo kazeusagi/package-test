@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "root": "github:kazeusagi/package-test"
+    "@kazeusagi/package-test": "^0.0.4"
   }
 }
